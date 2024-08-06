@@ -23,8 +23,9 @@ elif a == "서" :
     t.goto(-200,0)
 elif a == "남" :
     t.goto(0,-200)
-else :
+elif a == "북" :
     t.goto(0,200)
-
+else :
+    t.left(360)
 
 turtle.done()
